@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1">
+
+    <TableLayout
+        android:id="@+id/homeray"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/piechart"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white"
+            android:id="@+id/tbhorizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <Button
+                android:text="P"
+                android:id="@+id/btnp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="23.14"
+                android:background="@color/pColor"
+                android:textColor="#000000" />
+
+            <Button
+                android:text="F"
+                android:id="@+id/btnf"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="11.22"
+                android:background="@color/fColor"
+                android:textColor="#000000" />
+
+            <Button
+                android:text="C"
+                android:id="@+id/btnc"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="13.92"
+                android:background="@color/cColor"
+                android:textColor="#000000" />
+
+            <Button
+                android:text="Needed"
+                android:id="@+id/btnrest"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.09"
+                android:background="@android:color/white"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</RelativeLayout>

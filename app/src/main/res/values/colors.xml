@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00E5FF</color>
+    <color name="colorPrimaryDark">#FFEA00</color>
+    <color name="colorAccent">#28d7b8</color>
+
+    <color name="greenbright">#28d7b8</color>
+    <color name="lightgray">#a7b0b8</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+
+    <color name="pColor">#75ead6</color>
+
+    <color name="fColor">#50d8c1</color>
+    <color name="cColor">#088771</color>
+
+    <color name="orange">#fd7804</color>
+
+    <color name="background">#FBF8F8</color>
+    <color name="colorLight">#CBBAE3</color>
+    <color name="colorLight2">#BCD6D6</color>
+    <color name="active_dot">#FF1744</color>
+    <color name="inactive_dots">#83878b</color>
+
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Track-o-Pedia</string>
+    <string name="click_here_text"><u>Click Here</u></string>
+    <string name="action_settings">Settings</string>
+</resources>

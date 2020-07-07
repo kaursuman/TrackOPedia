@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/titleImage"
+        android:layout_width="450dp"
+        android:layout_height="850dp"
+        android:layout_centerInParent="true"
+        android:cropToPadding="true"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/backgroundsplash" />
+    <TextView
+        android:id="@+id/titleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track-o-Pedia"
+        android:textSize="70sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily= "cursive"
+        android:textStyle="bold"
+        android:textColor="#E4FA11">
+
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:src="@drawable/run5"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="50dp"
+        android:foregroundGravity="center"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tagLine"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Inspire Yourself"
+        android:layout_marginTop="600dp"
+        android:textSize="35sp"
+        android:textColor="#E4FA11"
+        android:layout_marginLeft="160dp"
+        android:fontFamily= "cursive"
+        android:textStyle="bold"
+
+        ></TextView>
+
+</RelativeLayout>

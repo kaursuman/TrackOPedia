@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1">
+
+    <TableLayout
+        android:id="@+id/sleeptab"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:textColorHint="@color/greenbright"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/sleep_age"
+                    android:gravity="center"
+                    android:hint="Age"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:textColorHint="@color/greenbright"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/sleep_height"
+                    android:gravity="center"
+                    android:hint="Height"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:textColorHint="@color/greenbright"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/sleep_weight"
+                    android:gravity="center"
+                    android:hint="Weight"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:id="@+id/sleep_determine"
+                android:layout_marginRight="10dp"
+                android:text="Determine"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="40dp" />
+
+            <Button
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:id="@+id/sleep_edit"
+                android:layout_marginRight="10dp"
+                android:text="Edit"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="40dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:layout_below="@id/sleeptab"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/sleep_ans"
+                android:textColor="@color/orange"
+                android:gravity="center"
+                android:textSize="100dp"
+                android:typeface="serif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:id="@+id/sleep_ans1"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </TableRow>
+</RelativeLayout>
